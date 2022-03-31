@@ -12,11 +12,13 @@
   font-size: 12px;
   font-weight: 500;
   justify-content: center;
+  border-radius: 4px 4px 4px 4px;
 }
 .filters li input {
   width: 75px;
   height: 30px;
   border-color: white;
+  border-radius: 4px 4px 4px 4px;
 }
 .filters li select {
   width: 75px;
@@ -89,14 +91,14 @@
 .widget ul li a {
   display: block;
   padding: 5px 6px;
-  color: #fff;
+  color: black;
   cursor: pointer;
   text-align: center;
-  border-bottom: 1px solid #2cd5ca;
+  background-color: rgb(221, 221, 221);
   transition: background-color 0.3s;
 }
 .widget ul li:hover > a {
-  background-color: #2cd5ca;
+  background-color: rgb(221, 221, 221);
 }
 .widget ul li:first-child > a {
   border-radius: 0 3px 0 0;
